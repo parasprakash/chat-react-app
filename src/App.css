@@ -1,0 +1,202 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62, 5%;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: rgb(117, 84, 160);
+    background: linear-gradient(90deg, rgba(117, 84, 160, 1) 7%, rgba(117, 84, 160, 1) 17%, rgba(99, 103, 174, 1) 44%, rgba(87, 116, 184, 1) 66%, rgba(70, 135, 198, 1) 83%, rgba(44, 163, 219, 1) 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    /* border-bottom: 0.3rem solid transparent; */
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.form {
+    width: 400px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 2.3em;
+    ;
+}
+
+.button {
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+    width: 90%;
+}
+
+.container{
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel{
+    width: 21%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid black;
+    padding: .5rem;
+    z-index: 7;
+    background-color:cadetblue;
+}
+
+.input-group-text{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.form-control{
+    width: 80%;
+    height: 30px;
+}
+
+.user-list{
+    height: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    /* display: flex; */
+    border: 1px solid black;
+    background-color: #efefef;
+}
+.user{
+    margin: 1rem 2rem;
+    padding: .5rem;
+}
+.user:hover{
+    background: #efefef;
+    cursor: pointer
+}
+.user.active{
+    background: #efefef
+}
+.user .user-icon{
+    font-size: x-large;    
+}
+.user h4{
+    display: inline;
+    font-size: larger;    
+}
+
+.group-list{
+    height: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    overflow: auto;
+    background-color: #efefef;
+}
+
+.right-panel{
+    border: 1px solid blue;
+    position: absolute;
+    display: flex;
+    width: 77%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.row{
+    height: 2.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    line-height: 2.5rem;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding-left: 10px;
+    background-color: aliceblue;
+}
+
+.chat-history{
+    position: absolute;
+    top: 2.6rem;
+    right: 0;
+    left: 0;
+    height: 83%;
+    padding: 1.5rem .5rem;
+    background-color: antiquewhite;
+    color: white;
+}
+.messagedata-received{
+    background-color: green;
+    width: fit-content;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    float: inline-start;
+    /* display: inline-block; */
+    color: white;
+}
+.messagedata-sent{
+    background-color: blue;
+    width: fit-content;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    float: right;
+    /* display: inline-block; */
+    color: white;
+}
+.input-message{
+    background-color: rgb(213, 243, 233);
+    display: flex;
+    position: absolute;
+    border: 1px solid grey;
+    padding: 0.5rem .5rem;
+    left: 0;
+    height: 2.5rem;
+    bottom: 0;
+    right: 0;
+}
+.message{
+    width: 95%;
+}
+.input-icon{
+    font-size: xx-large;
+    padding: .2rem 0rem 0rem .5rem;
+    cursor: pointer;
+}
